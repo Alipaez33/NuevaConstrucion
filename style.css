@@ -1,0 +1,424 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 1440px;
+    height: 112px;
+    display: flex;
+    background-color: #ffff;
+    justify-content: end;   
+    
+}
+.logo img{
+    
+    position: absolute;
+    width: 300px;
+    height: 255px;
+    left: 85px;
+    top: -40px;
+    z-index: 1;
+    
+}
+ul.navbar{
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    height: 112px;
+    cursor: pointer;
+    
+    }
+    ul.navbar :hover{
+        transform: scale(1.2)
+    }
+    li{
+        text-decoration: none;
+        list-style: none;
+        letter-spacing: 2px;
+        margin: 10px;
+        
+    }
+
+    .bg{
+        background: url(hermosa-foto-casa-moderna-cocina-comedor.jpg);
+        position: absolute;
+        width: 1440px;
+        height: 730px;
+        left: 0px;
+        top: 299px;
+    }
+    h1{
+        margin: 25px;
+        padding: 20px;
+        position: absolute;
+        z-index: 1;
+        width: 648px;
+        height: 72px;
+        left: 68px;
+        top: 220px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 55px;
+        line-height: 72px
+
+    }
+    h2{
+        text-align: justify;
+        width: 700px;
+        padding: 25px;
+        margin: 20px;
+        z-index: 1;
+        position: absolute;
+        width: 642px;
+        height: 114px;
+        left: 68px;
+        top: 350px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 30px;
+                
+    }
+    .imagen-bg{
+        
+        width: 1440px;
+        height: 749px;
+        justify-content: space-around;       
+        top: -187px;
+        position: absolute;
+            }
+   
+
+    .boton-principal{
+        width: 293px;
+        height: 63px;
+        top:663px;
+        left: 160px;
+        border-radius: 30px;
+        background-color:#ffcc2c;
+        box-shadow: 0px 5px 4px 0px #00000040;
+        margin: 10px;
+        padding: 5px;
+        position: absolute;
+        z-index: 1;
+        left: 160px;
+        top: 600px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        cursor: pointer;
+        }
+        .boton-principal:hover{
+            color: white;
+        }
+    .bg{
+        background: url(hermosa-foto-casa-moderna-cocina-comedor.jpg);
+        position: absolute;
+        width: 1440px;
+        height: 730px;
+        left: 0px;
+        top: 299px;
+    }
+    .bg-radius{
+        position: absolute;
+        width: 834px;
+        height: 750px;
+        left: 0px;
+        top: 111px;
+        background: rgba(255, 182, 91, 0.64);
+        border-radius: 0px 0px 600px 0px;
+    }
+    .rectangulo{
+        position: absolute;
+        width: 238px;
+        height: 82px;
+        left: 115px;
+        top: 71px;
+        background: #FFFFFF;
+        border-radius: 80px;
+    }
+    img{
+        width: 1400px;
+        height: 870px;
+        top: -840px;
+    }
+    .bg-card{
+        position: absolute;
+        width: 1440px;
+        height: 750px;
+        left: 0px;
+        top: 841px;
+        background: url(textura-papel.jpg);
+
+    }
+    .areas{
+        z-index: 1;
+        position: absolute;
+        width: 812px;
+        height: 60px;
+        left: 313px;
+        top: 928px;
+        font-size: 50px;
+    }
+    .card-1{
+        
+        position: absolute;
+        width: 400px;
+        height: 487px;
+        left: 56px;
+        top: 1082px;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        background: rgba(255, 182, 91, 0.7);
+    }
+    .card-1 :hover{
+        transform: scale(1.2);
+    }
+    .img-card-1{
+        width: 400px;
+        height: 400px;
+        justify-content: center;
+        border-radius: 20px;
+    }
+    h3{
+        font-family: 'Trade Gothic Next LT Pro';
+        text-align: center;
+        padding: 15px;
+        font-size: 25px;
+    }
+    .card-2{
+        
+        position: absolute;
+        width: 400px;
+        height: 487px;
+        left: 530px;
+        top: 1082px;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        background: rgba(255, 182, 91, 0.7);
+        justify-content: center;
+    }
+    .card-2 :hover{
+        transform: scale(1.2)
+    }
+
+  .img-card-2{
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    justify-content: center;
+  }
+  .card-3{
+    position: absolute;
+    width: 400px;
+    height: 487px;
+    left: 1000px;
+    top: 1082px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background: rgba(255, 182, 91, 0.7);
+    
+  }
+  .card-3 :hover{
+    transform: scale(1.2)
+  }
+  .img-card-3{
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    justify-content: center;
+  }
+  .forma-1{
+    position: absolute;
+    width: 430px;
+    height: 345px;
+    left: 975px;
+    top: 1900px;
+    background: #C19543;
+    box-shadow: 5px 6px 4px #000000;
+
+  }
+  .img-elipse-1{
+    border-radius: 500px;
+    position: absolute;
+    width: 430px;
+    height: 345px;
+    left: 975px;
+    top: 1900px;
+    background: url(sala-estar-diseno-interiores-escandinavo)
+
+  }
+  .forma-2{
+    position: absolute;
+    width: 430px;
+    height: 347px;
+    left: 95px;
+    top: 2350px;
+    background: #C19543;
+    box-shadow: 5px 6px 4px #000000;
+  }
+  .img-elipse-2{
+    border-radius: 100px;
+    position: absolute;
+    width: 430px;
+    height: 347px;
+    left: 95px;
+    top: 2350px;
+    background: url(lamparas-retro-colgadas-techo-casa-o-cafeteria-moderna);
+  }
+.text-quem-somos{
+    text-align: center;
+    font-family: 'Trade Gothic Next LT Pro';
+    position: absolute;
+    width: 345px;
+    height: 60px;
+    left: 660px;
+    top: 1758px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 60px;
+    color: #000000;
+}
+p{
+    position: absolute;
+    z-index: 1;
+    font-style: normal;
+    width: 750px;
+    font-size: 23px;
+    left: 13px;
+top: 1935px;
+text-align: justify;
+line-height: 30px;
+font-weight: 400;
+margin: 15px;
+padding: 5px;
+}
+.parrafo-2{
+    position: absolute;
+width: 700px;
+height: 184px;
+left: 677px;
+top: 2400px;
+text-align: left;
+}
+.informacion{
+    position: absolute;
+    width: 780px;
+    height: 250px;
+    left: 13px;
+    top: 1948px;    
+    background: rgba(255, 182, 91, 0.7);
+    box-shadow: 5px 6px 4px #455559;
+    border-radius: 15px 0px 0px 15px;
+ }
+ .informacion-2{
+    position: absolute;
+    width: 780px;
+    height: 250px;
+    left: 625px;
+    top: 2400px;    
+    background: rgba(255, 182, 91, 0.7);
+    box-shadow: 5px 6px 4px #455559;
+    border-radius: 15px 0px 0px 15px;
+ }
+ .bg-formulario{
+    justify-content: center;
+    position: absolute;
+    width: auto;
+    height: 1162px;
+    top: 2800px;
+    background: url(1749.jpg);
+ }
+ .img-form{
+    width: 1440px;
+    height: 1162px;
+ }
+ .formulario{
+    border-radius: 25px;
+    background: rgba(255, 182, 91, 0.7);
+    z-index: 1;
+    position: absolute;
+    width: 859px;
+    height: 693px;
+    left: 290px;
+    top: 3000px;
+ }
+ .text-form{
+    padding: 20px;
+    
+    justify-content: start;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 350px;
+    height: 693px;
+    left: 290px;
+ }
+ .btn-enviar{
+    font-weight: 600px;
+    font-size: 20px;
+    position: absolute;
+    width: 180px;
+    height: 47px;
+    top: 550px;
+    left: 280px;
+    background: #FFCC8D;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+ }
+ .btn-enviar :hover{
+    color: white;
+ }
+ label{
+    font-size: 25px;
+    padding: 10px;
+ }
+ input{
+    color: white;
+border-radius: 5px;
+width: 350px;
+height: 30px;
+ }
+ .texto{
+    height: 100px
+ }
+ footer{
+    display: flex;
+    position: absolute;
+    width: 1440px;
+    height: 359px;
+    left: 0px;
+    top: 4000px;
+    justify-content: end;
+    background: linear-gradient(180deg, rgba(255, 182, 91, 0) 0%, rgba(255, 182, 91, 0.7) 84.69%);
+ }
+.logos-redes-sociales{
+    display: flex;    
+    align-items: end;
+}
+.redes{
+    width: 50px;
+    height: 50px;
+    justify-content: end;
+    margin: 10px;
+    cursor: pointer;
+    
+}
+.servicios{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 5px;
+gap: 5px;
+font-size: 25px;
+position: absolute;
+width: 130px;
+height: 211px;
+left: 1205px;
+cursor: pointer;
+}
