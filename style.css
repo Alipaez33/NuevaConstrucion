@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 header{
-    width: 1440px;
+    width: auto;
     height: 112px;
     display: flex;
     background-color: #ffff;
@@ -28,6 +28,7 @@ ul.navbar{
     height: 112px;
     cursor: pointer;
     
+    
     }
     ul.navbar :hover{
         transform: scale(1.2)
@@ -40,10 +41,14 @@ ul.navbar{
         
     }
 
+     li a{
+        text-decoration: none;
+        color: #000000;
+     }
     .bg{
         background: url(hermosa-foto-casa-moderna-cocina-comedor.jpg);
         position: absolute;
-        width: 1440px;
+        width: auto;
         height: 730px;
         left: 0px;
         top: 299px;
@@ -84,7 +89,7 @@ ul.navbar{
     }
     .imagen-bg{
         
-        width: 1440px;
+        width: 1520px;
         height: 749px;
         justify-content: space-around;       
         top: -187px;
@@ -149,7 +154,7 @@ ul.navbar{
     }
     .bg-card{
         position: absolute;
-        width: 1440px;
+        width: 100%;
         height: 750px;
         left: 0px;
         top: 841px;
@@ -177,7 +182,7 @@ ul.navbar{
         background: rgba(255, 182, 91, 0.7);
     }
     .card-1 :hover{
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
     .img-card-1{
         width: 400px;
@@ -204,7 +209,7 @@ ul.navbar{
         justify-content: center;
     }
     .card-2 :hover{
-        transform: scale(1.2)
+        transform: scale(1.1)
     }
 
   .img-card-2{
@@ -225,7 +230,7 @@ ul.navbar{
     
   }
   .card-3 :hover{
-    transform: scale(1.2)
+    transform: scale(1.1)
   }
   .img-card-3{
     width: 400px;
@@ -335,7 +340,7 @@ text-align: left;
     background: url(1749.jpg);
  }
  .img-form{
-    width: 1440px;
+    width: 1520px;
     height: 1162px;
  }
  .formulario{
@@ -343,7 +348,7 @@ text-align: left;
     background: rgba(255, 182, 91, 0.7);
     z-index: 1;
     position: absolute;
-    width: 859px;
+    width: auto;
     height: 693px;
     left: 290px;
     top: 3000px;
@@ -371,9 +376,7 @@ text-align: left;
     box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
  }
- .btn-enviar :hover{
-    color: white;
- }
+
  label{
     font-size: 25px;
     padding: 10px;
@@ -390,25 +393,11 @@ height: 30px;
  footer{
     display: flex;
     position: absolute;
-    width: 1440px;
+    width: 1520px;
     height: 359px;
-    left: 0px;
     top: 4000px;
-    justify-content: end;
     background: linear-gradient(180deg, rgba(255, 182, 91, 0) 0%, rgba(255, 182, 91, 0.7) 84.69%);
  }
-.logos-redes-sociales{
-    display: flex;    
-    align-items: end;
-}
-.redes{
-    width: 50px;
-    height: 50px;
-    justify-content: end;
-    margin: 10px;
-    cursor: pointer;
-    
-}
 .servicios{
     display: flex;
 flex-direction: column;
@@ -421,4 +410,19 @@ width: 130px;
 height: 211px;
 left: 1205px;
 cursor: pointer;
+}
+.servicios :hover{
+    transform: scale(1.1);
+}
+
+
+@media (max-width : 576px){
+   
+     li{
+        grid-template-columns: repeat(1fr);
+        grid-template-rows:  repeat(3,1fr);
+        font-size: 15px;
+        justify-content: end;
+        text-align: end;
+    }
 }
