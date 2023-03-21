@@ -5,25 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nova Construçao</title>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="./asset/img/F1AB86FE-DBE4-41A5-9915-6735949E264A-removebg-preview.png" type="image/x-icon" >
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header>
-        <div>
+    <header>        
             <a class="logo" href=""><img src="./asset/img/F1AB86FE-DBE4-41A5-9915-6735949E264A-removebg-preview.png" alt="logo"> </a>
-        </div>
-        <nav>
-            <ul class="navbar">
-                <li>Inicio</li>
-                <li>Serviços</li>
-                <li>Portfolio</li>
-                <li><a href="https://www.facebook.com/Nova-Constru%C3%A7%C3%A3o-102686525878404" target="
-                    " >Contacto</a></li>
-            </ul>
-        </nav>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                 <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Quem Somos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="https://www.facebook.com/Nova-Constru%C3%A7%C3%A3o-102686525878404" target="
+                    " >Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
     </header>
     <main>
+        <div class="bg">
+            <img class="imagen-bg" src="./asset/img/hermosa-foto-casa-moderna-cocina-comedor.jpg" alt="foto de fondo">
+            </div>
+            <div class="bg-radius"></div>
+        <div class="rectangulo"></div>
         <div>
             <h1>
                 Construimos a sua visão 
@@ -35,10 +51,7 @@
             <button class="boton-principal">
                 Orçamento grátis
             </button>
-            <div class="bg">
-            <img class="imagen-bg" src="./asset/img/hermosa-foto-casa-moderna-cocina-comedor.jpg" alt="foto de fondo">
             </div>
-        </div>
         <div class="bg-radius"></div>
         <div class="rectangulo"></div>
         <section>
@@ -46,18 +59,26 @@
                 <img class="bg-card" src="./asset/img/textura-papel.jpg" alt="bg card">
             </div>
             <p class="areas">Áreas que oferecemos o nosso serviço</p>
-            <div class="card-1">
-                <img class="img-card-1" src="./asset/img/marroqui-tradicional-marrakech-fondo-mosaico.jpg" alt="card 1">
-                <h3>Moradias e Apartamentos</h3>                
-            </div>
-            <div class="card-2">
-                <img class="img-card-2" src="./asset/img/hombre-vista-frontal-trabajando-vistiendo-equipo-proteccion.jpg" alt="card 2">
-                <h3>Lojas</h3>
-            </div>    
-            <div class="card-3">
-                <img class="img-card-3" src="" alt="">
-                <h3>Prédios</h3>
-            </div>        
+            <div class="card-container">
+                <div class="card-1" style="width: 350px;">
+                    <img src="./asset/img/marroqui-tradicional-marrakech-fondo-mosaico.jpg" class="img-card-1" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Moradias e Apartamentos.</p>
+                    </div>
+                  </div>
+                  <div class="card-2" style="width: 350px;">
+                    <img src="./asset/img/hombre-vista-frontal-trabajando-vistiendo-equipo-proteccion.jpg" class="img-card-2" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Lojas.</p>
+                    </div>
+                  </div>
+                  <div class="card-3" style="width: 350px;">
+                    <img src="..." class="img-card-3" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Predios.</p>
+                    </div>
+                  </div>
+        </div>        
         </section>
         <section>
             <div class="forma-1"></div>
@@ -66,7 +87,7 @@
             <img class="img-elipse-2" src="./asset/img/lamparas-retro-colgadas-techo-casa-o-cafeteria-moderna.jpg" alt="">
             
             <h3 class="text-quem-somos">Quem Somos</h3>
-            <p>Somos a Nova Construção, uma empresa de remodelações de imóveis, especialistas em entregar na mão do cliente, a chave da sua satisfação! 
+            <p class="parrafo-1">Somos a Nova Construção, uma empresa de remodelações de imóveis, especialistas em entregar na mão do cliente, a chave da sua satisfação! 
                 Ao longo do tempo, as nossas intervenções estruturais e estéticas têm providenciado aos nossos clientes a segurança que todos procuramos quando nos envolvemos em projetos no nosso lar, negócios ou investimentos.
                 A nossa bandeira, orgulho e prioridade é oferecer serviços personalizados e atenciosos atendendo as necessidades únicas de cada projeto. Trabalhamos lado a lado com o cliente pois acreditamos que a comunicação é a chave!
                 </p>
@@ -75,15 +96,14 @@
                     Se está procura uma empresa de Remodelações que oferece Qualidade e Garantia, então a Nova Construção é a escolha certa para si.
                     Não hesite em entrar em contacto connosco - vamos construir os nossos objetivos juntos!
                 </p>
-                <div class="informacion-2"></div>
-            <div class="informacion"></div>
+                
         </section>
-        
+        <div class="informacion"></div>
         <div class="bg-formulario">
             <img class="img-form" src="./asset/img/1749.jpg" alt="">
         </div>
         <div class="formulario">
-        <form action="">
+        <form action="" method="post">
            <div class="text-form">
             <label for="name">Nombre y Apellido</label>
             <input type="text">
@@ -113,6 +133,6 @@
             </ul>
         </div>
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 </body>
 </html>
